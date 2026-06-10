@@ -1,0 +1,3 @@
+
+The primary reason to use a .hpp file containing full implementation code instead of a separate .cpp file is to handle
+C++ templates or inline functions, which must have their source code visible to any file that includes them
