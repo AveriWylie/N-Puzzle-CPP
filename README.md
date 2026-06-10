@@ -53,7 +53,7 @@ always uses a random state.
 
 ## What it shows
 
-- **Deciding solvability is linear time** — a single inversion-count parity check.
+- **Deciding solvability is linear time**: a single inversion-count parity check.
 - **Finding the optimal solution is NP-hard** for the generalized
   (n²-1)-puzzle. A* with Manhattan distance is optimal, but its time and
   memory grow exponentially with the optimal solution depth, which you can
