@@ -16,11 +16,11 @@ what lets larger boards stay viewable.
 
 ## Layout
 
-- `src/u256.hpp` — fixed 256-bit packed integer (stands in for Python's int)
-- `src/npuzzle.hpp` — board representation, A*, heuristics, solvability, console display
-- `src/visuals.hpp` / `src/visuals.cpp` — raylib rendering and animation (port of `visuals.py`)
-- `src/main.cpp` — entry point (port of the `__main__` block + `solve`)
-- `test.cpp` — headless correctness checks (no window)
+- `src/u256.hpp`: fixed 256-bit packed integer (stands in for Python's int)
+- `src/npuzzle.hpp`: board representation, A*, heuristics, solvability, console display
+- `src/visuals.hpp` / `src/visuals.cpp`: raylib rendering and animation (port of `visuals.py`)
+- `src/main.cpp`: entry point (port of the `__main__` block + `solve`)
+- `test.cpp`: headless correctness checks (no window)
 
 ## Build
 
